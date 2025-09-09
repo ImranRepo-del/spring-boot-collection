@@ -17,8 +17,13 @@ public class DemoController {
 	}	
 	
 	@GetMapping("/b")
-	public String sampe() {
+	public String sample() {
 		return "This is a sample end point";
+	}
+	
+	@GetMapping("/c")
+	public String getDetails() {
+		return "Student details are up to the mark";
 	}
 	
 }
