@@ -25,5 +25,6 @@ public class DemoController {
 	public String getDetails() {
 		return "Student details are up to the mark";
 	}
+	//
 	
 }
