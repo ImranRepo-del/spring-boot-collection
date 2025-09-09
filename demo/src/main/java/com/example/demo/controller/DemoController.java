@@ -10,5 +10,10 @@ public class DemoController {
 	public String greet() {
 		return "Welcome to java world";
 	}
+
+	@GetMapping("/a")
+	public String hello(){
+        return "This is my first git repository";
+	}	
 	
 }
