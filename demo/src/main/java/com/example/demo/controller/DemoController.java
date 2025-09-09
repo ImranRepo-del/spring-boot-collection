@@ -16,4 +16,9 @@ public class DemoController {
         return "This is my first git repository";
 	}	
 	
+	@GetMapping("/b")
+	public String sampe() {
+		return "This is a sample end point";
+	}
+	
 }
