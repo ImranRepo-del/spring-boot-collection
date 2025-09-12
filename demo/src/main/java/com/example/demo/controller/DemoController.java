@@ -25,6 +25,10 @@ public class DemoController {
 	public String getDetails() {
 		return "Student details are up to the mark";
 	}
-	//
+	
+	@GetMapping("/d")
+	public String xyz() {
+		return "Xyz method invoked";
+	}
 	
 }
